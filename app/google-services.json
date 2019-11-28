@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "612100597373",
+    "firebase_url": "https://momota-382cf.firebaseio.com",
+    "project_id": "momota-382cf",
+    "storage_bucket": "momota-382cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612100597373:android:ea444605e6e06941",
+        "android_client_info": {
+          "package_name": "com.example.rainb.momota"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612100597373-i7d6a57v2qibksfjs0c6s57ke89eqnr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWFzBZMuU5A1v6wmvjPJgu53Ic67N26a8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

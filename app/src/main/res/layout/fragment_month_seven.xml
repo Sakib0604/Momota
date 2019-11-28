@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rainb.momota.login">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/calendar1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:text="You may be afflicted with heartburn and leg cramps, especially at night. Your to-do list is getting longer while you're getting more tired. Your fetus begins to sleep for longer periods now, often when you do. Its eyes open and are beginning to blink. You may be distressed to see the numbers on the scale creep (OK, jump) up: From here on out, you'll probably be gaining about 1 pound a week. This still only translates to about 300 extra calories a day, though. Welcome to the third trimester! Braxton Hicks (practice) contractions usually start about now. They feel like an intermittent tightening in your abdomen.  "/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:text="What to do Now :" />
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:text="Make friends with Tums. They won't harm your baby, and they work wonders on heartburn.To help prevent cramps, stretch your legs, especially your calves, before going to bed. Also avoid standing or sitting in one position for too long.Look into child care if you'll be returning to work. Day-care centers fill up fast, and nannies can be hard to come by.Get into the nap habit. You'll need to master these 20-minute mini-snoozes once your baby arrives.Start narrowing down your baby name list. But think twice about whether you want to share the possibilities with others.Focus on eating high-fiber foods, including fruits, vegetables and whole grains; they will help you feel full longer.Familiarize yourself with the symptoms of true labor: contractions that occur at regular intervals and/or gradually become stronger and do not abate with movement; bleeding; intermittent back pain; increased or brown-tinged vaginal discharge; or passage of the mucus plug.Ask your doctor about doing fetal kick counts, which help assess your baby's well-being."/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
